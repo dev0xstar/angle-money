@@ -537,7 +537,7 @@ const Ve = {
     chainSecurity: {
       name: "",
       logo: Sa,
-      link: "https://docs.angle.money/resources/audits",
+      link: "https://angrybird4837s-organization.gitbook.io/angle-money/resources/audits",
       category: 1,
       className: "invert",
     },
@@ -551,7 +551,7 @@ const Ve = {
     sigmaPrime: {
       name: "",
       logo: Ha,
-      link: "https://docs.angle.money/resources/audits",
+      link: "https://angrybird4837s-organization.gitbook.io/angle-money/resources/audits",
       category: 1,
       className: "invert",
     },
@@ -13657,7 +13657,7 @@ const Xa = ({
       year: 2021,
       content: {
         1: "Angle Stablecoins series in four parts",
-        2: 'Release of the <a class="underlined" href="https://docs.angle.money/">Angle Documentation and developers tools</a>',
+        2: 'Release of the <a class="underlined" href="https://angrybird4837s-organization.gitbook.io/angle-money/">Angle Documentation and developers tools</a>',
       },
     },
     {
