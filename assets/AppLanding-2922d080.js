@@ -5122,9 +5122,10 @@ const pi = ["yield", "transparency", "stability", "accessibility"],
                             e.jsx("h3", {
                               className: "h2 text-center",
                               children: a(
-                                `Join over ${de(
-                                  E.holders
-                                )} users already leveraging Angle stablecoins`
+                                // `Join over ${de(
+                                //   E.holders
+                                // )} users already leveraging Angle stablecoins`
+                                'Join over 0 users already leveraging Angle stablecoins'
                               ),
                             }),
                             e.jsx(k, {
@@ -11606,9 +11607,10 @@ const Xa = ({
                           staggerChildren: 0.03,
                           dataUseEffect: B.holders,
                           children: a(
-                            `Join over ${de(
-                              B.holders
-                            )} users already leveraging USDA!`
+                            // `Join over ${de(
+                            //   B.holders
+                            // )} users already leveraging USDA!`
+                            'Join over 0 users already leveraging USDA!'
                           ),
                         }),
                       }),
