@@ -385,13 +385,6 @@ const F = ({ className: o }) =>
           key: crypto.randomUUID(),
         },
         {
-          route: n.angleDevelopers,
-          external: !0,
-          children: "Developers",
-          location: "header",
-          key: crypto.randomUUID(),
-        },
-        {
           route: n.angleWhitepapers,
           children: "Whitepapers",
           location: "header",
@@ -399,67 +392,6 @@ const F = ({ className: o }) =>
           external: !0,
         },
       ],
-    },
-    {
-      children: "Security",
-      location: "header",
-      key: crypto.randomUUID(),
-      subLinks: [
-        {
-          route: n.angleGithub,
-          external: !0,
-          children: "Github",
-          location: "header",
-          key: crypto.randomUUID(),
-        },
-        {
-          route: n.angleAudits,
-          external: !0,
-          children: "Audits",
-          location: "header",
-          key: crypto.randomUUID(),
-        },
-        {
-          route: n.immunefi,
-          children: "Bug Bounty",
-          location: "header",
-          key: crypto.randomUUID(),
-          external: !0,
-        },
-      ],
-    },
-    {
-      children: "About",
-      location: "header",
-      key: crypto.randomUUID(),
-      subLinks: [
-        {
-          route: r.about,
-          children: "About",
-          location: "header",
-          key: crypto.randomUUID(),
-        },
-        {
-          route: r.labsProjects,
-          children: "Angle Public Goods",
-          location: "header",
-          key: crypto.randomUUID(),
-        },
-        {
-          route: n.angleAssets,
-          children: "Branding",
-          location: "header",
-          external: !0,
-          key: crypto.randomUUID(),
-        },
-      ],
-    },
-    {
-      route: n.angleAnalytics,
-      external: !0,
-      children: "Analytics",
-      location: "header",
-      key: crypto.randomUUID(),
     },
   ],
   me = [
