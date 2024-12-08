@@ -5153,13 +5153,13 @@ const pi = ["yield", "transparency", "stability", "accessibility"],
                                 transition: { duration: 1 },
                                 className: "h2 mb-2 dark:text-black-500",
                                 children: [
-                                  e.jsx(Ai, {
-                                    Volume: n,
-                                    setVolume: r,
-                                    globalData: w,
-                                    rate: c,
-                                  }),
-                                  "€",
+                                  // e.jsx(Ai, {
+                                  //   Volume: n,
+                                  //   setVolume: r,
+                                  //   globalData: w,
+                                  //   rate: c,
+                                  // }),
+                                  0, "€"
                                 ],
                               }),
                               e.jsx(x.p, {
@@ -5183,7 +5183,7 @@ const pi = ["yield", "transparency", "stability", "accessibility"],
                                 whileInView: { opacity: 1, y: 0 },
                                 transition: { duration: 1 },
                                 className: "h2 mb-2 dark:text-black-500",
-                                children: [d, "M+€"],
+                                children: [0, "M+€"],
                               }),
                               e.jsx(x.p, {
                                 initial: { opacity: 0, y: "-100%" },
@@ -5208,7 +5208,7 @@ const pi = ["yield", "transparency", "stability", "accessibility"],
                                 transition: { duration: 1 },
                                 className:
                                   "h2 mb-2 !w-auto dark:text-black-500",
-                                children: [o, "M+€"],
+                                children: [0, "M+€"],
                               }),
                               e.jsx(x.p, {
                                 initial: { opacity: 0, y: "-100%" },
@@ -14793,16 +14793,16 @@ const ro = ({ headerHeight: a }) => {
                   setIsLight: r,
                   beforeComponent: e.jsxs(e.Fragment, {
                     children: [
-                      Zs === "landing" &&
-                        (A == null ? void 0 : A.pathname) !==
-                          S.savingsLossAnalyzer &&
-                        e.jsx(co, {
-                          text: i(
-                            "Check your lost revenue by holding USDC or USDT"
-                          ),
-                          href: "https://safary.link/ZplJOiOXuDBM/Fleeced?-homepage_banner-02/07/2024",
-                          btnText: i("Check now"),
-                        }),
+                      // Zs === "landing" &&
+                      //   (A == null ? void 0 : A.pathname) !==
+                      //     S.savingsLossAnalyzer &&
+                      //   e.jsx(co, {
+                      //     text: i(
+                      //       "Check your lost revenue by holding USDC or USDT"
+                      //     ),
+                      //     href: "https://safary.link/ZplJOiOXuDBM/Fleeced?-homepage_banner-02/07/2024",
+                      //     btnText: i("Check now"),
+                      //   }),
                       e.jsx(Za, {
                         hideOnScroll: !0,
                         setHeaderHeight: o,
