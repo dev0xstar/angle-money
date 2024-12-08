@@ -363,20 +363,20 @@ const F = ({ className: o }) =>
       location: "header",
       key: crypto.randomUUID(),
       subLinks: [
-        {
-          route: n.angleBlog,
-          children: "Blog",
-          location: "header",
-          key: crypto.randomUUID(),
-          external: !0,
-        },
-        {
-          route: n.angleGuides,
-          children: "User guides",
-          location: "header",
-          key: crypto.randomUUID(),
-          external: !0,
-        },
+        // {
+        //   route: n.angleBlog,
+        //   children: "Blog",
+        //   location: "header",
+        //   key: crypto.randomUUID(),
+        //   external: !0,
+        // },
+        // {
+        //   route: n.angleGuides,
+        //   children: "User guides",
+        //   location: "header",
+        //   key: crypto.randomUUID(),
+        //   external: !0,
+        // },
         {
           route: n.angleDocs,
           external: !0,
@@ -430,18 +430,18 @@ const F = ({ className: o }) =>
     {
       category: "Learn",
       links: [
-        {
-          route: n.angleBlog,
-          children: "Blog",
-          key: crypto.randomUUID(),
-          external: !0,
-        },
-        {
-          route: n.angleGuides,
-          children: "User guides",
-          key: crypto.randomUUID(),
-          external: !0,
-        },
+        // {
+        //   route: n.angleBlog,
+        //   children: "Blog",
+        //   key: crypto.randomUUID(),
+        //   external: !0,
+        // },
+        // {
+        //   route: n.angleGuides,
+        //   children: "User guides",
+        //   key: crypto.randomUUID(),
+        //   external: !0,
+        // },
         {
           route: n.angleDocs,
           external: !0,

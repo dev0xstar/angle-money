@@ -4899,14 +4899,14 @@ const pi = ["yield", "transparency", "stability", "accessibility"],
                                   children: a("Discover USDA"),
                                 }),
                               }),
-                              e.jsx(k, {
-                                type: "button",
-                                look: "underlined",
-                                onClick: () =>
-                                  window.open(C.angleSwap, "_blank"),
-                                rightIcon: e.jsx(m, { mui: "CallMade" }),
-                                children: a("Get USDA"),
-                              }),
+                              // e.jsx(k, {
+                              //   type: "button",
+                              //   look: "underlined",
+                              //   onClick: () =>
+                              //     window.open(C.angleSwap, "_blank"),
+                              //   rightIcon: e.jsx(m, { mui: "CallMade" }),
+                              //   children: a("Get USDA"),
+                              // }),
                             ],
                           }),
                           e.jsx(ua, {
@@ -4929,18 +4929,18 @@ const pi = ["yield", "transparency", "stability", "accessibility"],
                                 },
                                 "eura-explore"
                               ),
-                              e.jsx(
-                                k,
-                                {
-                                  type: "button",
-                                  look: "underlined",
-                                  onClick: () =>
-                                    window.open(C.angleApp, "_blank"),
-                                  rightIcon: e.jsx(m, { mui: "CallMade" }),
-                                  children: a("Get EURA"),
-                                },
-                                "eura-get"
-                              ),
+                              // e.jsx(
+                              //   k,
+                              //   {
+                              //     type: "button",
+                              //     look: "underlined",
+                              //     onClick: () =>
+                              //       window.open(C.angleApp, "_blank"),
+                              //     rightIcon: e.jsx(m, { mui: "CallMade" }),
+                              //     children: a("Get EURA"),
+                              //   },
+                              //   "eura-get"
+                              // ),
                             ],
                           }),
                         ],
@@ -5263,15 +5263,15 @@ const pi = ["yield", "transparency", "stability", "accessibility"],
                         ),
                       ],
                     },
-                    button: e.jsx(k, {
-                      type: "button",
-                      look: "secondary",
-                      onClick: () => {
-                        window.open(C.angleAnalytics, "_blank");
-                      },
-                      leftIcon: e.jsx(m, { mui: "QueryStats" }),
-                      children: a("Check reserves"),
-                    }),
+                    // button: e.jsx(k, {
+                    //   type: "button",
+                    //   look: "secondary",
+                    //   onClick: () => {
+                    //     window.open(C.angleAnalytics, "_blank");
+                    //   },
+                    //   leftIcon: e.jsx(m, { mui: "QueryStats" }),
+                    //   children: a("Check reserves"),
+                    // }),
                   },
                 }),
                 e.jsx(T, {
