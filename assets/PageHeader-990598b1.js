@@ -105,25 +105,25 @@ const F = ({ className: o }) =>
             " Angle Labs Inc. All rights reserved.",
           ],
         }),
-        x !== "analytics" &&
-          e.jsxs("span", {
-            className: "flex gap-4",
-            children: [
-              !1,
-              e.jsx(v, {
-                className: "py-0 text-sm hover:dark:text-peach-500",
-                to: r.terms,
-                "aria-label": "Terms and Conditions",
-                children: "Terms",
-              }),
-              e.jsx(v, {
-                className: "py-0 text-sm hover:dark:text-peach-500",
-                to: r.privacy,
-                "aria-label": "Privacy Policy",
-                children: "Privacy",
-              }),
-            ],
-          }),
+        // x !== "analytics" &&
+        //   e.jsxs("span", {
+        //     className: "flex gap-4",
+        //     children: [
+        //       !1,
+        //       e.jsx(v, {
+        //         className: "py-0 text-sm hover:dark:text-peach-500",
+        //         to: r.terms,
+        //         "aria-label": "Terms and Conditions",
+        //         children: "Terms",
+        //       }),
+        //       e.jsx(v, {
+        //         className: "py-0 text-sm hover:dark:text-peach-500",
+        //         to: r.privacy,
+        //         "aria-label": "Privacy Policy",
+        //         children: "Privacy",
+        //       }),
+        //     ],
+        //   }),
       ],
     }),
   E = ({ className: o, app: l = "angle" }) => {
@@ -158,15 +158,15 @@ const F = ({ className: o }) =>
               ),
             onlyIcon: e.jsx(a, { size: "l", svg: s ? "xLogoLight" : "xLogo" }),
           }),
-          e.jsx(k, {
-            className: "dim",
-            look: "text",
-            onClick: () => window.open(n.angleGithub, "_blank"),
-            onlyIcon: e.jsx(a, {
-              size: "l",
-              svg: s ? "githubLight" : "github",
-            }),
-          }),
+          // e.jsx(k, {
+          //   className: "dim",
+          //   look: "text",
+          //   onClick: () => window.open(n.angleGithub, "_blank"),
+          //   onlyIcon: e.jsx(a, {
+          //     size: "l",
+          //     svg: s ? "githubLight" : "github",
+          //   }),
+          // }),
         ],
       })
     );
