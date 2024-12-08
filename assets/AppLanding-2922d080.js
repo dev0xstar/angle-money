@@ -313,7 +313,7 @@ const Ve = {
     fredMontagnon: {
       name: "",
       logo: Vt,
-      link: "https://twitter.com/",
+      link: "https://twitter.com/Angle0xProtocol",
       category: 2,
       className: "invert",
     },
@@ -687,7 +687,7 @@ const Ve = {
           coFounder: !0,
           jobTitle: "Co-Founder Angle Labs",
           studies: "Polytechnique - Stanford University",
-          twitterLink: "https://twitter.com/",
+          twitterLink: "https://twitter.com/Angle0xProtocol",
         },
         2: {
           image: rt,
@@ -695,14 +695,14 @@ const Ve = {
           coFounder: !0,
           jobTitle: "Co-Founder Angle Labs",
           studies: "Polytechnique - Stanford University",
-          twitterLink: "https://twitter.com/",
+          twitterLink: "https://twitter.com/Angle0xProtocol",
         },
         3: {
           image: dt,
           name: "Picodes",
           coFounder: !0,
           jobTitle: "Co-Founder Angle Labs",
-          twitterLink: "https://twitter.com/",
+          twitterLink: "https://twitter.com/Angle0xProtocol",
         },
         5: {
           image: pt,
@@ -13808,7 +13808,7 @@ const Xa = ({
       year: 2023,
       content: {
         1: "Deployment of Angle Borrowing Module on Avalanche",
-        2: '<a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="underlined">Productive assets as collateral on Angle,</a> with improved transaction UX',
+        2: '<a href="https://twitter.com/Angle0xProtocol" target="_blank" rel="noopener noreferrer" class="underlined">Productive assets as collateral on Angle,</a> with improved transaction UX',
         3: 'Introducing <a href="https://www.youtube.com/watch?v=DDoY_CUrd7M&t=1s" target="_blank" rel="noopener noreferrer" class="underlined"><strong>Angle video</strong></a>',
       },
     },
